@@ -89,24 +89,24 @@ Answered the following questions using SparkSQL:
 ### Key Metrics  
 
 - **Average Price for Four-Bedroom Houses by Year**:  
-  - (Example) *2019: $450,000, 2020: $470,000, etc.*  
+  - (Example) *2019: $303,263.70, 2020: $298,353.78, etc.*  
 
 - **Average Price of Homes with Three Bedrooms and Bathrooms by Year Built**:  
-  - (Example) *2010: $350,000, 2015: $370,000, etc.*  
+  - (Example) *2010: $292,859.62, 2015: $288,770.30, etc.*  
 
 - **Average Price for Specific Conditions**:  
-  - (Example) *2010: $400,000, 2015: $420,000, etc.*  
+  - (Example) *2010: $285,010.22, 2015: $297,609.97, etc.*  
 
 - **Average Price by "View" Rating (≥ $350,000)**:  
-  - (Example) *View 5: $500,000, View 4: $450,000, etc.*  
+  - (Example) *View 31: $399,856.95, View 85: $1,056,336.74, etc.*  
 
 ### Runtime Comparison  
 
 | Query Type                | Runtime (seconds) |  
 |---------------------------|-------------------|  
-| Uncached Query            | X.XX              |  
-| Cached Query              | X.XX              |  
-| Partitioned Data Query    | X.XX              |  
+| Uncached Query            | 1.341833353042603 |  
+| Cached Query              | 0.222343921661377 |  
+| Partitioned Data Query    | 0.036556243896484 |  
 
 ### Observations  
 
